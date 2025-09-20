@@ -5,6 +5,7 @@ import { Heart, Home, MessageCircle, TrendingUp, Brain, User, LogOut } from "luc
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
+import { useAuth } from "@/contexts/auth-context"
 
 const navigation = [
   { name: "Dashboard", href: "/dashboard", icon: Home },
@@ -52,15 +53,14 @@ export function DashboardSidebar() {
 
       {/* Logout */}
       <div className="px-4 py-6 border-t border-sidebar-border">
-        <Link href="/">
-          <Button
-            variant="ghost"
-            className="w-full justify-start gap-3 h-12 text-base font-medium text-sidebar-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground"
-          >
-            <LogOut className="w-5 h-5" />
-            Logout
-          </Button>
-        </Link>
+        <Button
+          variant="ghost"
+          className="w-full justify-start gap-3 h-12 text-base font-medium text-sidebar-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground"
+          onClick={useAuth().logout}
+        >
+          <LogOut className="w-5 h-5" />
+          Logout
+        </Button>
       </div>
     </div>
   )

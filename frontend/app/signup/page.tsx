@@ -1,3 +1,5 @@
+'use client';
+
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -5,8 +7,40 @@ import { Label } from "@/components/ui/label"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Heart, ArrowLeft } from "lucide-react"
 import Link from "next/link"
+import { useState } from "react"
+import { useAuth } from "@/contexts/auth-context"
 
 export default function SignupPage() {
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+  const [confirmPassword, setConfirmPassword] = useState("")
+  const [termsAccepted, setTermsAccepted] = useState(false)
+  const [localError, setLocalError] = useState("")
+  
+  const { register, loading, error: authError } = useAuth()
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setLocalError("")
+
+    // Validate password match
+    if (password !== confirmPassword) {
+      setLocalError("Passwords do not match")
+      return
+    }
+
+    // Validate terms acceptance
+    if (!termsAccepted) {
+      setLocalError("Please accept the terms and conditions")
+      return
+    }
+
+    await register(name, email, password)
+  }
+
+  const error = localError || authError
+
   return (
     <div className="min-h-screen bg-background flex items-center justify-center p-4">
       <div className="w-full max-w-md">
@@ -33,7 +67,12 @@ export default function SignupPage() {
           </CardHeader>
 
           <CardContent className="space-y-6">
-            <form className="space-y-4">
+            {error && (
+              <div className="bg-red-50 text-red-600 p-3 rounded-md text-sm">
+                {error}
+              </div>
+            )}
+            <form className="space-y-4" onSubmit={handleSubmit}>
               <div className="space-y-2">
                 <Label htmlFor="name" className="text-sm font-medium">
                   Full name
@@ -43,6 +82,8 @@ export default function SignupPage() {
                   type="text"
                   placeholder="Enter your full name"
                   className="bg-background border-border/60 focus:border-primary"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                   required
                 />
               </div>
@@ -56,6 +97,8 @@ export default function SignupPage() {
                   type="email"
                   placeholder="Enter your email"
                   className="bg-background border-border/60 focus:border-primary"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   required
                 />
               </div>
@@ -69,6 +112,8 @@ export default function SignupPage() {
                   type="password"
                   placeholder="Create a password"
                   className="bg-background border-border/60 focus:border-primary"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
                   required
                 />
               </div>
@@ -82,12 +127,19 @@ export default function SignupPage() {
                   type="password"
                   placeholder="Confirm your password"
                   className="bg-background border-border/60 focus:border-primary"
+                  value={confirmPassword}
+                  onChange={(e) => setConfirmPassword(e.target.value)}
                   required
                 />
               </div>
 
               <div className="flex items-center space-x-2 pt-2">
-                <Checkbox id="terms" className="border-border/60" />
+                <Checkbox 
+                  id="terms" 
+                  className="border-border/60"
+                  checked={termsAccepted}
+                  onCheckedChange={(checked) => setTermsAccepted(checked as boolean)}
+                />
                 <Label htmlFor="terms" className="text-sm text-muted-foreground leading-relaxed">
                   I agree to the{" "}
                   <Link href="/terms" className="text-primary hover:text-primary/80 transition-colors">
@@ -103,8 +155,9 @@ export default function SignupPage() {
               <Button
                 type="submit"
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground py-6 text-base font-medium"
+                disabled={loading}
               >
-                Create Account
+                {loading ? "Creating Account..." : "Create Account"}
               </Button>
             </form>
 
