@@ -1,106 +1,149 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
-import { Brain, Clock, Users, Award, ArrowRight, CheckCircle, Play } from "lucide-react"
+import { Brain, Clock, Users, Award, ArrowRight, CheckCircle, Play, AlertCircle } from "lucide-react"
 import Link from "next/link"
+import quizService from "@/services/quiz"
+import { useToast } from "@/components/ui/use-toast"
+import { getToken } from "@/services/auth"
+import { useRouter } from "next/navigation"
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 
-const quizzes = [
-  {
-    id: "stress-assessment",
-    title: "Stress Assessment Quiz",
-    description: "Evaluate your current stress levels and learn coping strategies.",
-    duration: "5-7 minutes",
-    questions: 15,
-    category: "Assessment",
-    difficulty: "Beginner",
-    completed: true,
-    score: 85,
-    icon: Brain,
-    color: "bg-blue-500",
-  },
-  {
-    id: "anxiety-awareness",
-    title: "Anxiety Awareness Quiz",
-    description: "Understand anxiety symptoms and discover management techniques.",
-    duration: "8-10 minutes",
-    questions: 20,
-    category: "Education",
-    difficulty: "Intermediate",
-    completed: false,
-    score: null,
-    icon: Brain,
-    color: "bg-purple-500",
-  },
-  {
-    id: "mindfulness-basics",
-    title: "Mindfulness Basics",
-    description: "Learn the fundamentals of mindfulness and meditation practices.",
-    duration: "6-8 minutes",
-    questions: 12,
-    category: "Skills",
-    difficulty: "Beginner",
-    completed: true,
-    score: 92,
-    icon: Brain,
-    color: "bg-green-500",
-  },
-  {
-    id: "sleep-hygiene",
-    title: "Sleep Hygiene Assessment",
-    description: "Evaluate your sleep habits and learn improvement strategies.",
-    duration: "4-6 minutes",
-    questions: 10,
-    category: "Assessment",
-    difficulty: "Beginner",
-    completed: false,
-    score: null,
-    icon: Brain,
-    color: "bg-indigo-500",
-  },
-  {
-    id: "emotional-intelligence",
-    title: "Emotional Intelligence Quiz",
-    description: "Assess your ability to understand and manage emotions effectively.",
-    duration: "10-12 minutes",
-    questions: 25,
-    category: "Assessment",
-    difficulty: "Advanced",
-    completed: false,
-    score: null,
-    icon: Brain,
-    color: "bg-orange-500",
-  },
-  {
-    id: "resilience-building",
-    title: "Building Resilience",
-    description: "Learn strategies to bounce back from challenges and setbacks.",
-    duration: "7-9 minutes",
-    questions: 18,
-    category: "Skills",
-    difficulty: "Intermediate",
-    completed: false,
-    score: null,
-    icon: Brain,
-    color: "bg-teal-500",
-  },
-]
-
-const categories = ["All", "Assessment", "Education", "Skills"]
+// Fallback quiz icon mapping
+const IconMap = {
+  default: Brain
+};
 
 export default function QuizzesPage() {
+  const [quizzes, setQuizzes] = useState<any[]>([])
   const [selectedCategory, setSelectedCategory] = useState("All")
+  const [loading, setLoading] = useState(true)
+  const [authError, setAuthError] = useState(false)
+  const { toast } = useToast()
+  const router = useRouter()
+
+  useEffect(() => {
+    const fetchQuizzes = async () => {
+      try {
+        setLoading(true)
+        // Check if token exists
+        const token = getToken()
+        if (!token) {
+          console.error("No auth token found")
+          setAuthError(true)
+          return
+        }
+        
+        const response = await quizService.getAllQuizzes()
+        if (response.success) {
+          setQuizzes(response.data.map((quiz: any) => ({
+            ...quiz,
+            icon: Brain, // Using Brain icon for all quizzes
+            color: getRandomColor(), // Assign a random color
+          })))
+        }
+      } catch (error: any) {
+        console.error("Failed to fetch quizzes:", error)
+        // Check if it's an authentication error
+        if (error.response && error.response.status === 401) {
+          setAuthError(true)
+        } else {
+          toast({
+            title: "Error",
+            description: "Failed to load quizzes. Please try again later.",
+            variant: "destructive",
+          })
+        }
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchQuizzes()
+  }, [toast, router])
+
+  // Function to get a random color
+  const getRandomColor = () => {
+    const colors = [
+      "bg-blue-500", "bg-purple-500", "bg-green-500", "bg-indigo-500", 
+      "bg-orange-500", "bg-teal-500", "bg-pink-500", "bg-red-500"
+    ]
+    return colors[Math.floor(Math.random() * colors.length)]
+  }
+
+  // Extract unique categories from quizzes
+  const categories = ["All", ...Array.from(new Set(quizzes.map(quiz => quiz.category)))]
 
   const filteredQuizzes =
     selectedCategory === "All" ? quizzes : quizzes.filter((quiz) => quiz.category === selectedCategory)
 
   const completedQuizzes = quizzes.filter((quiz) => quiz.completed).length
-  const averageScore =
-    quizzes.filter((quiz) => quiz.score !== null).reduce((sum, quiz) => sum + quiz.score!, 0) /
-    quizzes.filter((quiz) => quiz.score !== null).length
+  const averageScore = quizzes.filter((quiz) => quiz.completed && quiz.score !== null).length > 0
+    ? Math.round(quizzes.filter((quiz) => quiz.completed && quiz.score !== null).reduce((sum, quiz) => sum + (quiz.score || 0), 0) /
+      quizzes.filter((quiz) => quiz.completed && quiz.score !== null).length)
+    : 0
+
+  // Calculate estimated time invested based on completed quizzes
+  const timeInvested = completedQuizzes * 7 // Rough estimate: 7 minutes per quiz
+
+  if (authError) {
+    return (
+      <div className="p-8 max-w-4xl mx-auto">
+        <Alert variant="destructive" className="mb-6">
+          <AlertCircle className="h-4 w-4" />
+          <AlertTitle>Authentication Error</AlertTitle>
+          <AlertDescription>
+            Your session has expired or you are not logged in. Please sign in again to access this page.
+          </AlertDescription>
+        </Alert>
+        <Button asChild>
+          <Link href="/login">Go to Login</Link>
+        </Button>
+      </div>
+    )
+  }
+
+  if (loading) {
+    return (
+      <div className="p-8 max-w-6xl mx-auto">
+        <div className="space-y-2">
+          <h1 className="text-3xl font-bold text-foreground">Mental Health Quizzes</h1>
+          <p className="text-lg text-muted-foreground">Loading quizzes...</p>
+        </div>
+        <div className="mt-8 grid md:grid-cols-3 gap-6">
+          {[1, 2, 3].map((i) => (
+            <Card key={i} className="border-border/50 bg-card/50 backdrop-blur-sm">
+              <CardHeader className="pb-3">
+                <div className="h-5 w-24 bg-muted animate-pulse rounded"></div>
+              </CardHeader>
+              <CardContent>
+                <div className="h-8 w-16 bg-muted animate-pulse rounded mb-2"></div>
+                <div className="h-4 w-28 bg-muted animate-pulse rounded"></div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+        <div className="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {[1, 2, 3, 4, 5, 6].map((i) => (
+            <Card key={i} className="border-border/50 bg-card/50 backdrop-blur-sm">
+              <CardHeader>
+                <div className="h-12 w-12 bg-muted animate-pulse rounded-xl mb-4"></div>
+                <div className="h-6 w-full bg-muted animate-pulse rounded mb-2"></div>
+                <div className="h-16 w-full bg-muted animate-pulse rounded"></div>
+              </CardHeader>
+              <CardContent>
+                <div className="h-24 w-full bg-muted animate-pulse rounded"></div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className="p-8">
@@ -151,7 +194,7 @@ export default function QuizzesPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold text-foreground">45 min</div>
+              <div className="text-2xl font-bold text-foreground">{timeInvested} min</div>
               <p className="text-sm text-muted-foreground">Learning time</p>
             </CardContent>
           </Card>
