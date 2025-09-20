@@ -11,6 +11,7 @@ connectDB();
 
 // Route files
 const auth = require('./routes/auth');
+const quiz = require('./routes/quiz');
 
 const app = express();
 
@@ -22,6 +23,7 @@ app.use(cors());
 
 // Mount routers
 app.use('/api/auth', auth);
+app.use('/api/quizzes', quiz);
 
 // Base route for API testing
 app.get('/', (req, res) => {

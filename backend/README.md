@@ -46,6 +46,53 @@ This is the backend for the Mind Support application. It provides authentication
   - GET `/api/auth/me`
   - Headers: `Authorization: Bearer YOUR_TOKEN`
 
+### Quizzes
+
+- **Get all quizzes**
+  - GET `/api/quizzes`
+  - Headers: `Authorization: Bearer YOUR_TOKEN`
+
+- **Get a single quiz**
+  - GET `/api/quizzes/:id`
+  - Headers: `Authorization: Bearer YOUR_TOKEN`
+
+- **Submit a quiz result**
+  - POST `/api/quizzes/:id/submit`
+  - Headers: `Authorization: Bearer YOUR_TOKEN`
+  - Body: `{ "answers": { "questionId1": "optionValue1", "questionId2": "optionValue2", ... } }`
+
+- **Get all quiz results for the current user**
+  - GET `/api/quizzes/results`
+  - Headers: `Authorization: Bearer YOUR_TOKEN`
+
+- **Get a specific quiz result for the current user**
+  - GET `/api/quizzes/:id/results`
+  - Headers: `Authorization: Bearer YOUR_TOKEN`
+
+## Database Seeding
+
+To seed the database with initial quiz data:
+
+```
+npm run seed
+```
+
+To remove all quiz data:
+
+```
+npm run seed:delete
+```
+
+## Groq API Integration
+
+The quiz API integrates with Groq to provide personalized mental health recommendations based on quiz results. To use this feature:
+
+1. Get a Groq API key from https://console.groq.com/
+2. Add your API key to the `.env` file:
+   ```
+   GROQ_API_KEY=your_groq_api_key_here
+   ```
+
 ## Authentication
 
 The API uses JWT (JSON Web Token) authentication. For protected routes, include the token in the Authorization header:
