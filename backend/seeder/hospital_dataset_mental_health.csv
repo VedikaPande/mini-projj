@@ -1,0 +1,201 @@
+Patient_ID,Patient_Name,Age,Gender,Diagnosis,Admission_Date,Discharge_Date,Treatment_Type,Medication,Session_Count,Severity_Level,Outcome,Doctor_Description,Doctor_Statement
+fee65fa6439eef9089894d2d,Aarav Sharma,53,Male,Schizoaffective Disorder,02-06-2025,24-06-2025,Rehabilitation,Sertraline,11,Moderate,Improved,Dr. Kapoor – Anxiety Specialist,Requires medication adjustment.
+5d6fbb26d4aa0618dd2bd891,Aanya Verma,66,Male,Panic Disorder,19-05-2025,25-05-2025,Medication Management,Zolpidem,11,Severe,Improved,Dr. Sen – Bipolar Disorder Expert,Progressing steadily.
+e8618684e3e802b2b9f59ab7,Vivaan Singh,40,Female,Eating Disorder,04-07-2025,11-07-2025,Nutritional Therapy,Sertraline,19,Low,Stable,Dr. Gupta – Sleep Specialist,Progressing steadily.
+433b950a82f02a922d39130c,Diya Patel,48,Female,Schizophrenia,23-02-2025,21-03-2025,Psychotherapy,Lithium,10,High,Improved,Dr. Iyer – Eating Disorder Consultant,Requires medication adjustment.
+e82a37662108601da246854b,Arjun Nair,53,Male,Anorexia,03-09-2025,27-09-2025,Mood Stabilization,Fluoxetine,16,High,No Improvement,Dr. Singh – Addiction Recovery Expert,Mild symptoms persist.
+b7ea5298425347b4c4acc666,Myra Reddy,46,Female,OCD,18-01-2025,04-02-2025,Counseling,Fluvoxamine,15,Low,Stable,Dr. Mehta – Senior Psychiatrist,"Symptoms under control, continue medication."
+3dd4833598ff3784e37b2f04,Reyansh Iyer,28,Male,Alcohol Addiction,09-08-2025,07-09-2025,Counseling,Fluoxetine,19,Low,Improved,Dr. Gupta – Sleep Specialist,Condition stabilized but fragile.
+0f20155da4b926769c4b6d85,Ishita Deshmukh,54,Male,Alcohol Addiction,08-07-2025,14-07-2025,Trauma Therapy,Lithium,3,Low,Improved,Dr. Kapoor – Anxiety Specialist,Requires medication adjustment.
+d7cbe005dfd81ce024da2f63,Advait Gupta,31,Male,Eating Disorder,02-10-2025,23-10-2025,Mood Stabilization,Escitalopram,7,Low,Improved,Dr. Iyer – Eating Disorder Consultant,Requires extended therapy.
+73e5a0601da9659a5af14aa0,Kavya Mehta,54,Female,Anorexia,13-02-2025,03-03-2025,Behavioral Therapy,Venlafaxine,9,Moderate,No Improvement,Dr. Gupta – Sleep Specialist,Shows improvement but needs monitoring.
+291e9e8f2665d1b50844249a,Rudra Kulkarni,48,Female,Panic Disorder,23-07-2025,15-08-2025,Trauma Therapy,Zolpidem,20,Severe,Stable,Dr. Sen – Bipolar Disorder Expert,Strong recovery pattern observed.
+9f452dc513564cfe91d9543a,Sanvi Bhatt,53,Male,OCD,13-01-2025,01-02-2025,Rehabilitation,Fluoxetine,4,High,Stable,Dr. Singh – Addiction Recovery Expert,"Symptoms under control, continue medication."
+34ce8f61d0a34835cf0e164d,Shaurya Choudhary,62,Male,Alcohol Addiction,26-05-2025,09-06-2025,Counseling,Olanzapine,18,Moderate,Stable,Dr. Sen – Bipolar Disorder Expert,Requires extended therapy.
+7d895f64cd21fa854b0ad69e,Anika Bansal,27,Female,Generalized Anxiety,19-06-2025,27-06-2025,Medication Management,Paroxetine,16,High,Improved,Dr. Sen – Bipolar Disorder Expert,Strong recovery pattern observed.
+28eeb794e0ae7f9242bb3cbb,Lakshya Sinha,33,Male,Alcohol Addiction,11-10-2025,24-10-2025,Sleep Therapy,Methylphenidate,3,Severe,No Improvement,Dr. Gupta – Sleep Specialist,Condition stabilized but fragile.
+246c4bf599f88c6413589658,Riddhi Rajput,66,Male,Eating Disorder,14-07-2025,24-07-2025,Nutritional Therapy,Olanzapine,11,Moderate,Improved,Dr. Gupta – Sleep Specialist,Shows improvement but needs monitoring.
+a0cd226330675b499dbd6e3c,Krish Chauhan,43,Male,ADHD,30-07-2025,15-08-2025,Medication Management,Olanzapine,7,Low,Stable,Dr. Kapoor – Anxiety Specialist,Requires extended therapy.
+b95b9ed06135e95110747124,Tanvi Malhotra,42,Male,Bipolar Disorder,24-08-2025,31-08-2025,Counseling,Fluvoxamine,10,Severe,Stable,Dr. Fernandes – OCD Consultant,"Symptoms under control, continue medication."
+a75b97e7d40aea7b48b63251,Pranav Ghosh,67,Female,Panic Disorder,09-05-2025,24-05-2025,Medication Management,Escitalopram,18,Severe,Stable,Dr. Gupta – Sleep Specialist,Condition stabilized but fragile.
+4844526a571d5fcce1ca4415,Sneha Basu,29,Male,OCD,08-01-2025,13-01-2025,Sleep Therapy,Naltrexone,16,Low,No Improvement,Dr. Arora – Trauma Specialist,Progressing steadily.
+c4b24b07c901da2b09c662a0,Rohan Khatri,34,Female,Insomnia,18-10-2025,10-11-2025,CBT,Olanzapine,14,Low,No Improvement,Dr. Sharma – Schizophrenia Specialist,Progressing steadily.
+cf86fea140e762052fda96cd,Meera Mahajan,53,Female,Insomnia,14-02-2025,15-03-2025,Medication Management,Fluoxetine,15,Moderate,No Improvement,Dr. Singh – Addiction Recovery Expert,Condition stabilized but fragile.
+994c7d226bc0d46dd92ab134,Yash Tripathi,61,Female,Alcohol Addiction,08-03-2025,27-03-2025,Sleep Therapy,Fluoxetine,8,Low,Stable,Dr. Mehta – Senior Psychiatrist,Condition stabilized but fragile.
+7237c1fe43bb378b1c0a138a,Sakshi Kaur,52,Male,Generalized Anxiety,19-06-2025,07-07-2025,Psychotherapy,Sertraline,6,Low,Improved,Dr. Kapoor – Anxiety Specialist,Mild symptoms persist.
+57508c8b482c334d48800cc8,Aditya Pillai,43,Female,Bipolar Disorder,14-06-2025,14-07-2025,Behavioral Therapy,Paroxetine,20,High,Improved,Dr. Sen – Bipolar Disorder Expert,"Symptoms under control, continue medication."
+dc68e6131eb45cb8992da99c,Neha Ahuja,52,Female,Eating Disorder,01-02-2025,15-02-2025,Mood Stabilization,Paroxetine,11,Low,Improved,Dr. Kapoor – Anxiety Specialist,Condition stabilized but fragile.
+f833044364575ed9a33cafc5,Harshvardhan Dixit,64,Male,Major Depression,01-02-2025,09-02-2025,Counseling,Clozapine,14,Low,No Improvement,Dr. Singh – Addiction Recovery Expert,Strong recovery pattern observed.
+75ea614864f841c3c70da54c,Pooja Jadhav,36,Male,ADHD,03-01-2025,09-01-2025,Behavioral Therapy,Fluvoxamine,6,Low,Improved,Dr. Sen – Bipolar Disorder Expert,Strong recovery pattern observed.
+14ebb94e04c983f78219e6e0,Kunal Solanki,66,Female,ADHD,16-04-2025,26-04-2025,Nutritional Therapy,Risperidone,13,Low,No Improvement,Dr. Iyer – Eating Disorder Consultant,Patient responding well to treatment.
+8cb2003dfd45fe098728b2f4,Anushka Gaikwad,30,Female,Panic Disorder,20-01-2025,31-01-2025,Counseling,Naltrexone,3,Low,Stable,Dr. Iyer – Eating Disorder Consultant,Condition stabilized but fragile.
+f38432bde3e6d040929903c3,Arnav Chatterjee,68,Male,Insomnia,28-09-2025,14-10-2025,Counseling,Olanzapine,8,Moderate,Stable,Dr. Sen – Bipolar Disorder Expert,Strong recovery pattern observed.
+0502784edd732dd6a15265ab,Nidhi Sen,44,Female,Major Depression,10-03-2025,15-03-2025,Psychotherapy,Zolpidem,3,Low,No Improvement,Dr. Mehta – Senior Psychiatrist,Shows improvement but needs monitoring.
+20891dcc1547dfff76152291,Siddharth Paswan,41,Male,Eating Disorder,24-04-2025,12-05-2025,Trauma Therapy,Sertraline,3,Moderate,Stable,Dr. Arora – Trauma Specialist,Patient responding well to treatment.
+2168e4cc7e0a697bcf91893d,Jyoti Suresh,52,Male,Panic Disorder,30-06-2025,17-07-2025,Sleep Therapy,Clozapine,10,High,No Improvement,Dr. Arora – Trauma Specialist,Strong recovery pattern observed.
+3bd61d59919833438862df2c,Manish Rathod,58,Male,OCD,14-10-2025,21-10-2025,Psychotherapy,Lithium,9,Low,Improved,Dr. Arora – Trauma Specialist,Mild symptoms persist.
+4df6333d9237ef44f387cd27,Riya Bhaskar,55,Male,Eating Disorder,22-10-2025,21-11-2025,Nutritional Therapy,Clozapine,3,Low,Improved,Dr. Fernandes – OCD Consultant,Requires medication adjustment.
+9f75131a0dc4f3341e100127,Veer Madan,63,Male,Panic Disorder,23-09-2025,11-10-2025,Sleep Therapy,Methylphenidate,10,High,Improved,Dr. Mehta – Senior Psychiatrist,Mild symptoms persist.
+d46dbd0a5cecce829dd19422,Aishwarya Rathore,35,Male,Bipolar Disorder,26-03-2025,14-04-2025,Behavioral Therapy,Zolpidem,17,High,Stable,Dr. Arora – Trauma Specialist,Requires medication adjustment.
+c159731d1338084cbce146ca,Parth Gill,70,Female,OCD,28-10-2025,27-11-2025,Behavioral Therapy,Zolpidem,16,Low,Stable,Dr. Singh – Addiction Recovery Expert,Patient responding well to treatment.
+ef52317efab74b0ee9f6d093,Shruti Bendre,37,Female,Anorexia,24-10-2025,16-11-2025,Mood Stabilization,Sertraline,19,High,No Improvement,Dr. Arora – Trauma Specialist,Requires extended therapy.
+215cf18e68b34c8f54580c8d,Karthik Murthy,49,Female,Anorexia,17-07-2025,01-08-2025,Counseling,Zolpidem,5,Moderate,No Improvement,Dr. Mehta – Senior Psychiatrist,Requires extended therapy.
+d61f96393f29d3c78cca27ab,Naina Hegde,60,Male,Panic Disorder,16-06-2025,12-07-2025,Trauma Therapy,Venlafaxine,17,Low,Improved,Dr. Fernandes – OCD Consultant,Strong recovery pattern observed.
+b004622ecf06adeeac8165c7,Varun Menon,32,Female,Schizophrenia,23-10-2025,29-10-2025,Counseling,Escitalopram,8,High,Improved,Dr. Fernandes – OCD Consultant,"Symptoms under control, continue medication."
+91b0b51256927f52fab5944a,Tara Vijay,43,Female,Schizoaffective Disorder,04-09-2025,21-09-2025,Rehabilitation,Paroxetine,8,Moderate,Improved,Dr. Mehta – Senior Psychiatrist,Progressing steadily.
+b2713ae0c57e1b9a677afeac,Dev Prasad,48,Male,PTSD,07-05-2025,05-06-2025,Psychotherapy,Clozapine,9,Moderate,Stable,Dr. Kapoor – Anxiety Specialist,"Symptoms under control, continue medication."
+5d6e457f8fd65c5a6b4aa340,Roshni Jacob,68,Female,Eating Disorder,01-07-2025,06-07-2025,Medication Management,Naltrexone,18,Severe,Improved,Dr. Arora – Trauma Specialist,Progressing steadily.
+3431f01afc0b26d72538588e,Mohit Lobo,55,Female,OCD,12-03-2025,05-04-2025,Rehabilitation,Lithium,16,Severe,Stable,Dr. Arora – Trauma Specialist,Progressing steadily.
+0d5b9deae28033e5d2979c79,Anjali Sebastian,61,Female,ADHD,07-03-2025,29-03-2025,Psychotherapy,Venlafaxine,10,High,Improved,Dr. Arora – Trauma Specialist,Requires medication adjustment.
+e57b2cb023bd57b0db924777,Amit Dagar,64,Male,ADHD,06-05-2025,25-05-2025,Psychotherapy,Olanzapine,5,Low,Improved,Dr. Iyer – Eating Disorder Consultant,Mild symptoms persist.
+396b907790950457f3e1369c,Sujata Chauke,70,Female,Anorexia,07-04-2025,23-04-2025,Behavioral Therapy,Olanzapine,12,High,Improved,Dr. Fernandes – OCD Consultant,Strong recovery pattern observed.
+ed028d4f577589f59d4c828c,Chetan Pawar,63,Male,PTSD,20-05-2025,11-06-2025,Sleep Therapy,Risperidone,18,Moderate,Improved,Dr. Fernandes – OCD Consultant,Mild symptoms persist.
+8f2eedec82f0e2d4f7369657,Mahima Pathak,70,Female,Eating Disorder,04-04-2025,13-04-2025,Psychotherapy,Escitalopram,6,Severe,Improved,Dr. Arora – Trauma Specialist,Condition stabilized but fragile.
+b8ff4210d5fdaf98a0d99813,Sagar Shetty,27,Male,Schizoaffective Disorder,22-08-2025,01-09-2025,Psychotherapy,Zolpidem,15,Moderate,No Improvement,Dr. Sharma – Schizophrenia Specialist,Condition stabilized but fragile.
+b9aef81205778e8985474d6f,Radhika Nambiar,19,Male,Panic Disorder,17-01-2025,26-01-2025,Medication Management,Fluvoxamine,16,Severe,Improved,Dr. Kapoor – Anxiety Specialist,Requires medication adjustment.
+a451004f86ecf571a025c2fa,Ashwin Tiwari,25,Female,Alcohol Addiction,22-04-2025,27-04-2025,Nutritional Therapy,Risperidone,15,Severe,Stable,Dr. Gupta – Sleep Specialist,"Symptoms under control, continue medication."
+c346bdcfceb15aa542478872,Simran Bawa,62,Male,Anorexia,13-10-2025,22-10-2025,Trauma Therapy,Clozapine,13,Moderate,No Improvement,Dr. Fernandes – OCD Consultant,Shows improvement but needs monitoring.
+258079b254647c7095b97ae6,Rajveer Sandhu,47,Male,Panic Disorder,02-08-2025,21-08-2025,Nutritional Therapy,Naltrexone,5,Low,Improved,Dr. Kapoor – Anxiety Specialist,Shows improvement but needs monitoring.
+bd52c236ec1ed04ff73cc7f1,Shreya Vohra,34,Female,Panic Disorder,18-03-2025,25-03-2025,CBT,Sertraline,8,Low,Improved,Dr. Gupta – Sleep Specialist,Progressing steadily.
+1a0c7b7c4adfeedbfc29d689,Akarsh Yadav,62,Female,Alcohol Addiction,12-02-2025,26-02-2025,Medication Management,Lithium,16,Low,Stable,Dr. Kapoor – Anxiety Specialist,Requires extended therapy.
+802158bba2bf910882c972a9,Lavanya Mishra,22,Female,Social Anxiety,28-05-2025,23-06-2025,Medication Management,Venlafaxine,18,Severe,No Improvement,Dr. Arora – Trauma Specialist,Shows improvement but needs monitoring.
+03827c18963b8af21723761c,Omkar Kadam,45,Female,Social Anxiety,05-10-2025,30-10-2025,Nutritional Therapy,Clozapine,15,Moderate,Stable,Dr. Mehta – Senior Psychiatrist,Strong recovery pattern observed.
+653f2d786ab65c7250ca13f9,Payal More,65,Male,PTSD,25-07-2025,07-08-2025,Trauma Therapy,Lithium,10,Moderate,Improved,Dr. Sen – Bipolar Disorder Expert,Patient responding well to treatment.
+b6c440552e4b0c6db9a51642,Nikhil Sawant,34,Male,ADHD,05-01-2025,26-01-2025,Medication Management,Lithium,4,Low,Stable,Dr. Gupta – Sleep Specialist,Progressing steadily.
+10664d4d4294ef8446ec742b,Prachi Wagh,41,Male,Major Depression,25-08-2025,12-09-2025,Psychotherapy,Methylphenidate,13,High,Improved,Dr. Iyer – Eating Disorder Consultant,"Symptoms under control, continue medication."
+32a97ec8e639991cd75da282,Tejas Phadke,36,Female,Schizophrenia,23-04-2025,12-05-2025,Psychotherapy,Sertraline,16,Severe,Stable,Dr. Sharma – Schizophrenia Specialist,"Symptoms under control, continue medication."
+2414f0484c528085dcb6f337,Ishani Deo,25,Male,PTSD,17-07-2025,23-07-2025,Nutritional Therapy,Escitalopram,16,High,No Improvement,Dr. Gupta – Sleep Specialist,Progressing steadily.
+b248dd1c03a2676f1c1626df,Gaurav Kelkar,32,Female,Schizoaffective Disorder,02-05-2025,22-05-2025,Mood Stabilization,Sertraline,17,Low,Stable,Dr. Iyer – Eating Disorder Consultant,Mild symptoms persist.
+0efc81734fda217b6a7d4191,Anvi Oak,40,Male,Generalized Anxiety,10-09-2025,17-09-2025,Nutritional Therapy,Olanzapine,18,High,No Improvement,Dr. Sharma – Schizophrenia Specialist,"Symptoms under control, continue medication."
+b1319f6dfccd5b936dbd654f,Arvind Patil,56,Female,PTSD,18-04-2025,18-05-2025,Trauma Therapy,Fluoxetine,3,Moderate,Improved,Dr. Singh – Addiction Recovery Expert,Strong recovery pattern observed.
+b0037cffc0226888f58e54c9,Malini Purohit,35,Male,PTSD,26-02-2025,18-03-2025,Rehabilitation,Risperidone,19,High,Improved,Dr. Sen – Bipolar Disorder Expert,Mild symptoms persist.
+6f018e2c6ce84cccfb7ca7f4,Dhruv Sood,38,Male,Insomnia,20-02-2025,02-03-2025,Counseling,Fluoxetine,8,Moderate,Improved,Dr. Sen – Bipolar Disorder Expert,Shows improvement but needs monitoring.
+20cc5d3806245cae332966ce,Aditi Bhatnagar,36,Male,Generalized Anxiety,11-09-2025,17-09-2025,Counseling,Paroxetine,20,High,Stable,Dr. Sen – Bipolar Disorder Expert,Patient responding well to treatment.
+93cf95108b99c9c91b6de2d6,Keshav Manoj,55,Female,Panic Disorder,24-08-2025,04-09-2025,Counseling,Sertraline,7,Severe,Stable,Dr. Arora – Trauma Specialist,Mild symptoms persist.
+c0ef4ded3b6f04bd1fc0c316,Charu Saxena,50,Male,Generalized Anxiety,17-02-2025,19-03-2025,CBT,Paroxetine,4,Severe,Stable,Dr. Kapoor – Anxiety Specialist,Patient responding well to treatment.
+4977accb7ddaeb4b9758245f,Rajat Gokhale,28,Female,ADHD,21-02-2025,15-03-2025,Sleep Therapy,Risperidone,7,Low,Improved,Dr. Arora – Trauma Specialist,Requires medication adjustment.
+bd1ee5588aba435b7535ef13,Shalini Shukla,62,Male,Panic Disorder,30-08-2025,27-09-2025,Behavioral Therapy,Fluoxetine,7,High,Improved,Dr. Gupta – Sleep Specialist,Strong recovery pattern observed.
+6ecb85d375364082be0c546e,Ritesh Menkudle,62,Female,PTSD,21-01-2025,11-02-2025,CBT,Olanzapine,8,Low,Improved,Dr. Iyer – Eating Disorder Consultant,Requires extended therapy.
+5b776c81a80fc4123abdd29e,Komal Nagpal,58,Male,Schizoaffective Disorder,14-03-2025,02-04-2025,Medication Management,Zolpidem,14,Low,Stable,Dr. Sen – Bipolar Disorder Expert,Progressing steadily.
+42201795f33c492a165f2235,Naveen Raina,60,Male,OCD,09-09-2025,02-10-2025,Behavioral Therapy,Clozapine,9,Moderate,Improved,Dr. Iyer – Eating Disorder Consultant,Strong recovery pattern observed.
+65d19fd623b8206c7499f676,Sumedha Kaul,58,Female,Schizoaffective Disorder,26-05-2025,08-06-2025,Rehabilitation,Methylphenidate,19,High,Stable,Dr. Kapoor – Anxiety Specialist,Condition stabilized but fragile.
+b0edcb3867240e37e5f1dc18,Aakash Nanda,59,Female,OCD,07-05-2025,24-05-2025,Behavioral Therapy,Risperidone,13,Moderate,Stable,Dr. Arora – Trauma Specialist,Patient responding well to treatment.
+03807210398b255c75ecb4d4,Priyanka Bhide,53,Male,Major Depression,25-07-2025,17-08-2025,Behavioral Therapy,Fluvoxamine,8,Moderate,No Improvement,Dr. Arora – Trauma Specialist,"Symptoms under control, continue medication."
+7d13314e2262cc7091379659,Rohit Sabharwal,46,Male,Alcohol Addiction,07-04-2025,05-05-2025,Rehabilitation,Zolpidem,16,Low,Improved,Dr. Sharma – Schizophrenia Specialist,Patient responding well to treatment.
+27a79f1d1d0de4a17e3d5519,Purnima Anand,18,Female,Schizoaffective Disorder,19-05-2025,11-06-2025,Counseling,Olanzapine,17,Moderate,No Improvement,Dr. Fernandes – OCD Consultant,"Symptoms under control, continue medication."
+6f1e5d61a4ed3d3b34cd0f7a,Viren Kataria,58,Female,Insomnia,29-08-2025,14-09-2025,Counseling,Sertraline,5,Low,No Improvement,Dr. Mehta – Senior Psychiatrist,Patient responding well to treatment.
+39c4f348747fa27b58cc917f,Ekta Kohli,46,Female,Anorexia,05-06-2025,03-07-2025,Psychotherapy,Zolpidem,6,Moderate,Improved,Dr. Iyer – Eating Disorder Consultant,Requires medication adjustment.
+b38dbf0468d701277f026f39,Tanmay Venkatesh,26,Male,Alcohol Addiction,01-09-2025,13-09-2025,Nutritional Therapy,Lithium,12,Moderate,No Improvement,Dr. Fernandes – OCD Consultant,Patient responding well to treatment.
+d490b2d0db2cefa16dbe7962,Swara Gopal,21,Male,Schizoaffective Disorder,19-09-2025,28-09-2025,Trauma Therapy,Paroxetine,8,Severe,Improved,Dr. Kapoor – Anxiety Specialist,Shows improvement but needs monitoring.
+1167396ace16d61f0d5cad7e,Rohin D’Souza,39,Male,PTSD,01-03-2025,21-03-2025,Rehabilitation,Clozapine,5,Severe,Improved,Dr. Mehta – Senior Psychiatrist,Mild symptoms persist.
+92a335399e36ba61c10d5ec6,Larissa Periera,52,Female,Schizophrenia,02-01-2025,11-01-2025,Trauma Therapy,Methylphenidate,13,Low,No Improvement,Dr. Iyer – Eating Disorder Consultant,Requires extended therapy.
+38a9f3c92a94b7c818a478a5,Advaith Shenoy,63,Male,Alcohol Addiction,25-10-2025,18-11-2025,Sleep Therapy,Fluvoxamine,11,Severe,Stable,Dr. Fernandes – OCD Consultant,Strong recovery pattern observed.
+739d4031646344cf749fbf12,Smriti Pai,41,Male,Alcohol Addiction,20-05-2025,13-06-2025,Rehabilitation,Lithium,14,Severe,Stable,Dr. Mehta – Senior Psychiatrist,Strong recovery pattern observed.
+2a6752db87ad2b33c1f902fe,Mihir Godbole,68,Female,Major Depression,22-10-2025,14-11-2025,Psychotherapy,Methylphenidate,3,High,Stable,Dr. Sen – Bipolar Disorder Expert,Strong recovery pattern observed.
+3e91b15a9eaa2e0da930b428,Ira Gokul,20,Male,Social Anxiety,01-04-2025,27-04-2025,Psychotherapy,Risperidone,9,Severe,Stable,Dr. Kapoor – Anxiety Specialist,Strong recovery pattern observed.
+0a6f4fdac85dc7248b5bca5f,Samar Nath,37,Female,Eating Disorder,11-07-2025,25-07-2025,Mood Stabilization,Clozapine,13,Severe,Improved,Dr. Mehta – Senior Psychiatrist,Requires extended therapy.
+5eade9ff4dcf2532fa135c85,Manali Dhar,52,Male,Social Anxiety,11-06-2025,30-06-2025,Sleep Therapy,Naltrexone,7,Severe,Improved,Dr. Sharma – Schizophrenia Specialist,Condition stabilized but fragile.
+8270d95fe119256a9f44543e,Arpit Grover,69,Female,PTSD,03-07-2025,15-07-2025,Mood Stabilization,Lithium,12,Low,Improved,Dr. Arora – Trauma Specialist,Requires medication adjustment.
+2a4294592abb37e5123ad07e,Shifa Noor,38,Male,Major Depression,27-04-2025,24-05-2025,Rehabilitation,Sertraline,5,Moderate,Stable,Dr. Sharma – Schizophrenia Specialist,Condition stabilized but fragile.
+f02a4a06e3fa014b7e0dcc76,Kiran Narang,21,Female,Major Depression,11-04-2025,04-05-2025,Nutritional Therapy,Risperidone,19,Severe,No Improvement,Dr. Sharma – Schizophrenia Specialist,Requires medication adjustment.
+3b05ac04aa8ada428856e2bb,Sana Farooqi,60,Female,Schizoaffective Disorder,12-08-2025,10-09-2025,Sleep Therapy,Risperidone,20,Low,Stable,Dr. Iyer – Eating Disorder Consultant,Mild symptoms persist.
+2ad3721bcb608edc19460478,Danish Qureshi,29,Female,Panic Disorder,24-10-2025,09-11-2025,Nutritional Therapy,Lithium,4,Severe,Improved,Dr. Iyer – Eating Disorder Consultant,Mild symptoms persist.
+c1321ea3818f83c2a638445f,Ruhi Zahra,18,Male,Eating Disorder,25-05-2025,11-06-2025,Mood Stabilization,Fluvoxamine,7,Severe,Improved,Dr. Kapoor – Anxiety Specialist,Shows improvement but needs monitoring.
+8c528f73583a00fc87c799a8,Rehan Siddiqui,46,Male,Social Anxiety,30-03-2025,09-04-2025,Counseling,Fluvoxamine,8,Severe,No Improvement,Dr. Fernandes – OCD Consultant,Requires medication adjustment.
+6367451f18983b89fb12b3df,Mariyam Khan,58,Female,Bipolar Disorder,18-10-2025,30-10-2025,Behavioral Therapy,Venlafaxine,4,Severe,Improved,Dr. Mehta – Senior Psychiatrist,Patient responding well to treatment.
+adde1a54019e787aae0f694d,Farhan Mirza,20,Male,Schizophrenia,01-02-2025,02-03-2025,Nutritional Therapy,Clozapine,7,Severe,Improved,Dr. Sharma – Schizophrenia Specialist,Requires medication adjustment.
+541e20de3e83e00e32abce39,Samina Ansari,48,Female,Alcohol Addiction,14-10-2025,09-11-2025,CBT,Naltrexone,5,Low,Stable,Dr. Mehta – Senior Psychiatrist,Patient responding well to treatment.
+4c40444a0573d436384f178b,Kabir Chauke,56,Female,Social Anxiety,30-05-2025,13-06-2025,Mood Stabilization,Paroxetine,8,Moderate,No Improvement,Dr. Sen – Bipolar Disorder Expert,"Symptoms under control, continue medication."
+cff2925a24d7774c196aa4b8,Sia Nagarkar,43,Male,PTSD,19-01-2025,17-02-2025,Counseling,Paroxetine,7,Low,No Improvement,Dr. Arora – Trauma Specialist,Mild symptoms persist.
+99d16bd36bf073bc80daf99a,Rachit Vatsa,34,Female,Bipolar Disorder,26-04-2025,01-05-2025,Counseling,Risperidone,11,Moderate,No Improvement,Dr. Sen – Bipolar Disorder Expert,Progressing steadily.
+f9b3b49f7e69e8d6ab13ca7b,Soumya Deol,42,Female,Schizophrenia,06-05-2025,02-06-2025,Nutritional Therapy,Methylphenidate,15,Severe,Stable,Dr. Sharma – Schizophrenia Specialist,Mild symptoms persist.
+99b753ddb631c05db33f823d,Abhiraj Bassi,64,Male,ADHD,17-09-2025,01-10-2025,CBT,Fluoxetine,3,Severe,No Improvement,Dr. Arora – Trauma Specialist,"Symptoms under control, continue medication."
+fc79c68b0e89f4f8eade8bbc,Kritika Bassi,20,Male,Eating Disorder,19-02-2025,06-03-2025,Behavioral Therapy,Methylphenidate,8,High,No Improvement,Dr. Iyer – Eating Disorder Consultant,Shows improvement but needs monitoring.
+481487dc04e5014cdee9251d,Devesh Paliwal,20,Male,Major Depression,26-01-2025,12-02-2025,Behavioral Therapy,Zolpidem,16,High,Improved,Dr. Gupta – Sleep Specialist,Requires extended therapy.
+ac683816f5e1e6978e627aa2,Shreya Arun,50,Male,Major Depression,31-01-2025,12-02-2025,Sleep Therapy,Risperidone,19,Severe,Stable,Dr. Sharma – Schizophrenia Specialist,Condition stabilized but fragile.
+18d25ff22d6b0a0115cfab7d,Pratik Patankar,47,Male,Anorexia,22-08-2025,19-09-2025,Sleep Therapy,Venlafaxine,20,High,No Improvement,Dr. Kapoor – Anxiety Specialist,Progressing steadily.
+2b43ca18d2a01c3f4160a9bf,Rhea Acharya,66,Male,Eating Disorder,25-02-2025,02-03-2025,Rehabilitation,Lithium,7,Moderate,No Improvement,Dr. Iyer – Eating Disorder Consultant,Mild symptoms persist.
+bee88e7743fbb0616776c84d,Amey Shivekar,70,Female,Schizophrenia,07-03-2025,12-03-2025,Nutritional Therapy,Escitalopram,8,Severe,Improved,Dr. Gupta – Sleep Specialist,"Symptoms under control, continue medication."
+e72dbad8ad39496002636c03,Trisha Kulshreshtha,52,Female,Generalized Anxiety,31-01-2025,16-02-2025,Psychotherapy,Sertraline,6,Low,Stable,Dr. Sen – Bipolar Disorder Expert,Mild symptoms persist.
+27576defff65cb332ece2f11,Hriday Mohan,55,Female,Anorexia,20-07-2025,08-08-2025,Nutritional Therapy,Naltrexone,5,Low,No Improvement,Dr. Fernandes – OCD Consultant,Mild symptoms persist.
+349c8eda722aca5dd2a3ebdd,Anushree Gaur,63,Male,Schizoaffective Disorder,26-03-2025,14-04-2025,Nutritional Therapy,Zolpidem,19,Low,Improved,Dr. Fernandes – OCD Consultant,Patient responding well to treatment.
+09e598a75ed5b9dcb655a7ef,Ayush Badoni,32,Male,Eating Disorder,22-06-2025,15-07-2025,Mood Stabilization,Fluoxetine,14,High,Improved,Dr. Mehta – Senior Psychiatrist,Shows improvement but needs monitoring.
+de777332c3a33ef782567e11,Vaishnavi Thakur,19,Female,Schizoaffective Disorder,08-10-2025,24-10-2025,Medication Management,Fluoxetine,9,Low,No Improvement,Dr. Mehta – Senior Psychiatrist,Requires extended therapy.
+bdfd52badcdc7189b14a8996,Arjit Sisodia,30,Female,PTSD,30-04-2025,08-05-2025,Behavioral Therapy,Lithium,10,Severe,Improved,Dr. Mehta – Senior Psychiatrist,Mild symptoms persist.
+4044c015e4ed8daa6b9ea20d,Nandini Yogi,26,Female,Eating Disorder,14-03-2025,08-04-2025,Trauma Therapy,Fluoxetine,3,Low,Improved,Dr. Fernandes – OCD Consultant,Patient responding well to treatment.
+78111974580aeee8378b0f09,Karthikeyan Subramanian,64,Male,Anorexia,18-09-2025,24-09-2025,Medication Management,Sertraline,3,Severe,Stable,Dr. Sharma – Schizophrenia Specialist,Shows improvement but needs monitoring.
+0e9e1e46d319e21f224f2754,Vaidehi Krishnan,23,Male,Schizoaffective Disorder,04-06-2025,03-07-2025,Rehabilitation,Clozapine,6,Moderate,No Improvement,Dr. Sen – Bipolar Disorder Expert,Strong recovery pattern observed.
+f6a7bd2ce3c2bc8cf9fa0f54,Sivaram Iyengar,39,Female,PTSD,14-01-2025,11-02-2025,Nutritional Therapy,Clozapine,18,Moderate,No Improvement,Dr. Singh – Addiction Recovery Expert,"Symptoms under control, continue medication."
+ade717267fde46833cb033c4,Sahana Narayan,37,Male,PTSD,14-08-2025,29-08-2025,Psychotherapy,Lithium,16,High,No Improvement,Dr. Mehta – Senior Psychiatrist,Mild symptoms persist.
+2ad5b65d8127987c9069acf8,Shashank Balaji,26,Female,Insomnia,05-06-2025,28-06-2025,Psychotherapy,Escitalopram,3,Low,Stable,Dr. Gupta – Sleep Specialist,Shows improvement but needs monitoring.
+6775e41502598a9614b24159,Keerthi Rajan,34,Female,Major Depression,08-01-2025,31-01-2025,Medication Management,Risperidone,8,High,Improved,Dr. Sharma – Schizophrenia Specialist,Progressing steadily.
+e3527200ae2554a3e26699b1,Gokul Shanmugam,35,Male,Social Anxiety,21-06-2025,21-07-2025,CBT,Escitalopram,12,Moderate,Improved,Dr. Sharma – Schizophrenia Specialist,Shows improvement but needs monitoring.
+c0304ceff166bbb546c3dd30,Bhavana Ramesh,70,Female,Schizoaffective Disorder,13-03-2025,23-03-2025,Nutritional Therapy,Methylphenidate,14,Severe,Improved,Dr. Sen – Bipolar Disorder Expert,Shows improvement but needs monitoring.
+be748c1dbc3df88b25a18d94,Jatin Salunke,43,Female,Anorexia,10-03-2025,19-03-2025,Sleep Therapy,Lithium,17,Low,No Improvement,Dr. Gupta – Sleep Specialist,Patient responding well to treatment.
+2b95982298ef9fe39d258dbf,Manisha Tawde,42,Male,Anorexia,31-03-2025,25-04-2025,Medication Management,Lithium,20,Severe,Stable,Dr. Sen – Bipolar Disorder Expert,Mild symptoms persist.
+499f9698944a396a313d8191,Viraj Natekar,65,Female,Schizophrenia,16-03-2025,15-04-2025,Counseling,Olanzapine,6,Moderate,Stable,Dr. Sharma – Schizophrenia Specialist,"Symptoms under control, continue medication."
+497e078c59c420e0c4d0fe8d,Tejal Koli,30,Female,OCD,26-08-2025,01-09-2025,Psychotherapy,Escitalopram,3,Severe,Improved,Dr. Gupta – Sleep Specialist,Requires extended therapy.
+4203ac02a85d521b557d08a1,Mandar Huilgol,27,Male,Schizophrenia,09-07-2025,14-07-2025,Medication Management,Paroxetine,11,Low,Improved,Dr. Fernandes – OCD Consultant,Condition stabilized but fragile.
+2d9e4ed41b4a63185113848c,Rucha Pendse,56,Male,Anorexia,20-02-2025,04-03-2025,Rehabilitation,Methylphenidate,12,Moderate,No Improvement,Dr. Arora – Trauma Specialist,Shows improvement but needs monitoring.
+447cb48d11802525b2d7f087,Chinmay Apte,55,Female,Generalized Anxiety,04-01-2025,28-01-2025,Mood Stabilization,Fluvoxamine,8,Severe,Improved,Dr. Kapoor – Anxiety Specialist,Mild symptoms persist.
+bbb07b93b0297239d7da36f9,Saee Bapat,54,Female,Bipolar Disorder,27-02-2025,29-03-2025,Nutritional Therapy,Olanzapine,16,Moderate,Improved,Dr. Gupta – Sleep Specialist,Shows improvement but needs monitoring.
+30807c0d2d979d4452aaaad9,Kovid Chhabra,56,Male,Schizophrenia,25-04-2025,24-05-2025,Medication Management,Paroxetine,14,High,No Improvement,Dr. Fernandes – OCD Consultant,Shows improvement but needs monitoring.
+04172abf6d82ba47b41d2802,Mahika Sethi,30,Male,Schizophrenia,13-10-2025,19-10-2025,CBT,Lithium,20,Severe,No Improvement,Dr. Singh – Addiction Recovery Expert,Mild symptoms persist.
+b779597c96a92b50755ffffa,Samar Kohli,41,Male,Insomnia,08-07-2025,29-07-2025,Sleep Therapy,Venlafaxine,19,Severe,Improved,Dr. Iyer – Eating Disorder Consultant,Condition stabilized but fragile.
+d631b2054bd0777c979132ce,Lavina Juneja,23,Female,PTSD,03-07-2025,12-07-2025,Mood Stabilization,Methylphenidate,18,Low,No Improvement,Dr. Sharma – Schizophrenia Specialist,Progressing steadily.
+6093528b7004b6aae46cb686,Armaan Purohit,67,Male,Social Anxiety,14-06-2025,11-07-2025,Sleep Therapy,Clozapine,3,Severe,Improved,Dr. Singh – Addiction Recovery Expert,Patient responding well to treatment.
+0b7227e870156734b5b2f3e3,Dhwani Vyas,38,Female,PTSD,05-04-2025,27-04-2025,Medication Management,Venlafaxine,9,High,Stable,Dr. Mehta – Senior Psychiatrist,Requires extended therapy.
+c77a4557bc6f6d42a0c8e774,Kabir Khurana,65,Male,Insomnia,12-02-2025,21-02-2025,Rehabilitation,Fluoxetine,18,High,Stable,Dr. Fernandes – OCD Consultant,Patient responding well to treatment.
+ba5827d94256ebd300a47821,Avni Luthra,19,Female,Panic Disorder,05-09-2025,19-09-2025,CBT,Escitalopram,10,Severe,No Improvement,Dr. Sen – Bipolar Disorder Expert,Condition stabilized but fragile.
+e2de1227373eba52e13729ac,Atharv Sawarkar,28,Female,OCD,13-10-2025,21-10-2025,Psychotherapy,Fluvoxamine,18,Severe,Stable,Dr. Mehta – Senior Psychiatrist,"Symptoms under control, continue medication."
+53d257bf65d8f4c99c3d516f,Tanishka Pande,22,Male,PTSD,10-03-2025,01-04-2025,Nutritional Therapy,Fluvoxamine,16,High,Improved,Dr. Sharma – Schizophrenia Specialist,Requires medication adjustment.
+11d61a7d435dedf69e3a9e74,Chirag Jaiswal,58,Female,Anorexia,07-07-2025,25-07-2025,Psychotherapy,Lithium,16,Severe,No Improvement,Dr. Fernandes – OCD Consultant,Mild symptoms persist.
+a0a14ddc0d3a2cb15f110a69,Roma Keshri,68,Female,Insomnia,05-06-2025,28-06-2025,Trauma Therapy,Paroxetine,16,High,No Improvement,Dr. Sen – Bipolar Disorder Expert,Condition stabilized but fragile.
+6738476ddafd3a129b2e5825,Hemant Baghel,34,Male,Insomnia,16-02-2025,10-03-2025,Behavioral Therapy,Lithium,9,Moderate,Stable,Dr. Sharma – Schizophrenia Specialist,"Symptoms under control, continue medication."
+77c3e6f28d3ac7ca937f192f,Lata Rawat,35,Female,Panic Disorder,18-01-2025,03-02-2025,CBT,Methylphenidate,20,Moderate,No Improvement,Dr. Sen – Bipolar Disorder Expert,Shows improvement but needs monitoring.
+7979a168aac3c05bc1ff3f99,Anoop Sahu,63,Male,Schizoaffective Disorder,16-09-2025,05-10-2025,Sleep Therapy,Venlafaxine,13,High,Stable,Dr. Fernandes – OCD Consultant,Mild symptoms persist.
+fbcb5be26dd5a863ec45aa18,Karishma Rathor,31,Male,Alcohol Addiction,22-07-2025,12-08-2025,Psychotherapy,Escitalopram,19,Moderate,Stable,Dr. Sen – Bipolar Disorder Expert,Progressing steadily.
+a607361cf3369ec8008d569b,Om Agrawal,34,Male,Anorexia,03-05-2025,10-05-2025,Behavioral Therapy,Clozapine,6,High,Stable,Dr. Mehta – Senior Psychiatrist,Patient responding well to treatment.
+5037aa8aa9561fb071a871e7,Barkha Lodhi,66,Female,Major Depression,17-03-2025,13-04-2025,Sleep Therapy,Clozapine,3,High,Improved,Dr. Kapoor – Anxiety Specialist,"Symptoms under control, continue medication."
+296f645af38d29f732d41c71,Rituraj Pandey,62,Male,Schizoaffective Disorder,20-09-2025,20-10-2025,Medication Management,Fluvoxamine,12,High,Stable,Dr. Singh – Addiction Recovery Expert,Patient responding well to treatment.
+54622e956221bca3d0bbac68,Vidhi Pandey,32,Female,Alcohol Addiction,16-08-2025,13-09-2025,CBT,Venlafaxine,4,Low,No Improvement,Dr. Mehta – Senior Psychiatrist,Patient responding well to treatment.
+37ccbf8bb07cfac26a600738,Sumeet Maurya,43,Male,Bipolar Disorder,23-03-2025,10-04-2025,Psychotherapy,Fluvoxamine,17,High,Improved,Dr. Iyer – Eating Disorder Consultant,Condition stabilized but fragile.
+24044ffe18fa09e67452b8ba,Preeti Kushwaha,26,Male,Schizoaffective Disorder,25-06-2025,24-07-2025,Sleep Therapy,Olanzapine,11,Low,No Improvement,Dr. Arora – Trauma Specialist,Patient responding well to treatment.
+25b20094d8ed337bfc8ea483,Mohan Bagde,30,Male,Insomnia,06-05-2025,28-05-2025,Psychotherapy,Risperidone,12,Severe,No Improvement,Dr. Mehta – Senior Psychiatrist,Progressing steadily.
+d952f0442fc21a4597feb07e,Shalini Ingole,23,Female,Generalized Anxiety,23-04-2025,11-05-2025,Nutritional Therapy,Olanzapine,5,Moderate,Stable,Dr. Iyer – Eating Disorder Consultant,Requires extended therapy.
+53c323519dd4236233bc0b97,Amritpal Brar,63,Male,Panic Disorder,17-07-2025,11-08-2025,Behavioral Therapy,Sertraline,13,Low,No Improvement,Dr. Singh – Addiction Recovery Expert,Requires extended therapy.
+a1621f31d3a872caed6009fb,Harleen Chahal,28,Male,Schizoaffective Disorder,27-05-2025,17-06-2025,Mood Stabilization,Escitalopram,17,Severe,No Improvement,Dr. Singh – Addiction Recovery Expert,Progressing steadily.
+f19bfe9b837ef9777bb0f140,Harmanpreet Bedi,45,Male,PTSD,03-10-2025,28-10-2025,Sleep Therapy,Clozapine,13,Severe,Stable,Dr. Fernandes – OCD Consultant,Progressing steadily.
+8e86e3f3a94b8e5162d5a7c9,Manpreet Mann,23,Female,Social Anxiety,24-03-2025,14-04-2025,Psychotherapy,Clozapine,7,Low,Stable,Dr. Sen – Bipolar Disorder Expert,Requires medication adjustment.
+8a73d0b3835ae15c269ad7c1,Sukhdeep Waraich,62,Female,Insomnia,15-06-2025,15-07-2025,Mood Stabilization,Naltrexone,15,Low,Improved,Dr. Sharma – Schizophrenia Specialist,Condition stabilized but fragile.
+b75ee814429b665975b5d719,Navjot Bajwa,65,Male,Insomnia,20-01-2025,07-02-2025,Medication Management,Paroxetine,7,High,Stable,Dr. Fernandes – OCD Consultant,Condition stabilized but fragile.
+2d61ed684c7c032258818196,Lakshman Raju,40,Female,Generalized Anxiety,07-10-2025,03-11-2025,CBT,Escitalopram,9,High,Improved,Dr. Sen – Bipolar Disorder Expert,"Symptoms under control, continue medication."
+721529224507ab222e62b438,Deepika Ramanujan,61,Female,ADHD,30-06-2025,13-07-2025,Counseling,Venlafaxine,9,Low,Improved,Dr. Sharma – Schizophrenia Specialist,Requires extended therapy.
+eb82173d88aa03a7a26ed099,Sriram Balasubramaniam,65,Male,Schizoaffective Disorder,19-09-2025,12-10-2025,Psychotherapy,Paroxetine,19,Moderate,Stable,Dr. Kapoor – Anxiety Specialist,Mild symptoms persist.
+326ff5f495d22e9080ece7a9,Mythili Raman,18,Female,Alcohol Addiction,03-03-2025,23-03-2025,Sleep Therapy,Fluoxetine,17,High,Stable,Dr. Mehta – Senior Psychiatrist,Requires extended therapy.
+cfbd711a2f8ac4c442858ded,Jayadev Mukherjee,40,Female,Insomnia,09-01-2025,17-01-2025,CBT,Lithium,14,Low,No Improvement,Dr. Kapoor – Anxiety Specialist,Mild symptoms persist.
+989b855fa6036047166b29f2,Rupsa Banerjee,18,Female,OCD,28-01-2025,08-02-2025,Sleep Therapy,Lithium,9,High,Improved,Dr. Sharma – Schizophrenia Specialist,Requires extended therapy.
+981d2c7c874227e2ebabc2b3,Dipayan Sen,67,Male,Social Anxiety,06-03-2025,25-03-2025,Nutritional Therapy,Venlafaxine,14,Moderate,Improved,Dr. Arora – Trauma Specialist,"Symptoms under control, continue medication."
+3cd7f5f08bad6b36e8e669e5,Poulomi Das,20,Male,Generalized Anxiety,25-06-2025,24-07-2025,Mood Stabilization,Escitalopram,16,Moderate,Improved,Dr. Iyer – Eating Disorder Consultant,"Symptoms under control, continue medication."
+9ec31937ce3030d54523a658,Abhijeet Mondal,20,Male,Generalized Anxiety,31-01-2025,11-02-2025,Sleep Therapy,Escitalopram,20,Severe,Improved,Dr. Arora – Trauma Specialist,Mild symptoms persist.
+c4f514219d33a19a52e8600e,Rinki Bhowmik,48,Male,Schizoaffective Disorder,07-08-2025,23-08-2025,Behavioral Therapy,Naltrexone,18,Moderate,Stable,Dr. Iyer – Eating Disorder Consultant,Requires extended therapy.
+d2b3dcd6d5f6668829c1e8ee,Biren Debnath,27,Female,ADHD,09-02-2025,09-03-2025,Medication Management,Lithium,4,Moderate,No Improvement,Dr. Arora – Trauma Specialist,"Symptoms under control, continue medication."
+b14ab1af5edad1674351ca9e,Mitali Roy,20,Female,Eating Disorder,28-02-2025,30-03-2025,Trauma Therapy,Lithium,16,Low,Stable,Dr. Gupta – Sleep Specialist,Requires extended therapy.
+8933d4963f4250c77cf6376d,Saugat Sarkar,39,Female,Panic Disorder,16-05-2025,30-05-2025,Sleep Therapy,Venlafaxine,7,Severe,Improved,Dr. Singh – Addiction Recovery Expert,Requires medication adjustment.
+8da8b1d041b549a96eb9e2dd,Shinjini Pal,46,Male,Panic Disorder,03-05-2025,02-06-2025,Rehabilitation,Risperidone,5,Moderate,Stable,Dr. Singh – Addiction Recovery Expert,Strong recovery pattern observed.
+3e46fd901fb8b8104a9c192d,Bishal Pradhan,34,Female,Alcohol Addiction,30-04-2025,22-05-2025,Counseling,Sertraline,6,Moderate,Stable,Dr. Mehta – Senior Psychiatrist,Requires extended therapy.
+4777cb9bb8e90b623e2d1dad,Anushka Chettri,64,Male,Insomnia,25-01-2025,21-02-2025,Counseling,Zolpidem,5,High,Stable,Dr. Fernandes – OCD Consultant,Requires medication adjustment.
+e26fcebadcd9e19a011f9263,Deepanshu Rawal,51,Male,Anorexia,18-01-2025,23-01-2025,Rehabilitation,Venlafaxine,5,High,Improved,Dr. Iyer – Eating Disorder Consultant,Mild symptoms persist.
+6ad7ce3e5df2908acde907db,Muskan Dhami,50,Male,Schizoaffective Disorder,15-04-2025,07-05-2025,Counseling,Risperidone,5,Severe,No Improvement,Dr. Sen – Bipolar Disorder Expert,Strong recovery pattern observed.
+fa79910b8d198ca564eebd64,Abhay Negi,65,Male,Bipolar Disorder,19-08-2025,02-09-2025,Behavioral Therapy,Risperidone,7,High,Improved,Dr. Arora – Trauma Specialist,Requires medication adjustment.
+d6c14c525d8541db5eb963e1,Shivani Bisht,34,Male,Anorexia,24-02-2025,05-03-2025,Trauma Therapy,Fluoxetine,19,Severe,Improved,Dr. Singh – Addiction Recovery Expert,Shows improvement but needs monitoring.
+111dd27d3ae4458fcf31cafa,Vinod Bhandari,63,Male,Schizoaffective Disorder,24-07-2025,20-08-2025,CBT,Fluoxetine,9,Moderate,Improved,Dr. Singh – Addiction Recovery Expert,Mild symptoms persist.
+97e32e697e5284d9a0e430f9,Isha Bohra,61,Male,Panic Disorder,19-07-2025,11-08-2025,Trauma Therapy,Sertraline,10,Low,No Improvement,Dr. Singh – Addiction Recovery Expert,Requires extended therapy.
+b46eec30f6d50b8b914f3de1,Gagan Bohra,70,Male,Alcohol Addiction,06-10-2025,23-10-2025,Behavioral Therapy,Escitalopram,18,Severe,Stable,Dr. Fernandes – OCD Consultant,"Symptoms under control, continue medication."
+64c2f47c778507ece797dff5,Purvi Jakhmola,20,Male,Eating Disorder,30-01-2025,12-02-2025,Rehabilitation,Fluoxetine,9,Low,No Improvement,Dr. Singh – Addiction Recovery Expert,Mild symptoms persist.
+1335aed569b7af5b7bb2d7da,Sajal Kandpal,42,Male,PTSD,08-10-2025,22-10-2025,Sleep Therapy,Naltrexone,10,Moderate,No Improvement,Dr. Mehta – Senior Psychiatrist,Shows improvement but needs monitoring.
+5dcf6dd30a0b15a4bad5b435,Nandita Rautela,57,Female,Anorexia,09-05-2025,24-05-2025,Rehabilitation,Fluvoxamine,18,High,Stable,Dr. Arora – Trauma Specialist,Patient responding well to treatment.
+21f964a4bbd1ddff87d7727c,Hemant Karki,61,Female,PTSD,17-02-2025,16-03-2025,Mood Stabilization,Clozapine,11,Severe,Improved,Dr. Sharma – Schizophrenia Specialist,Strong recovery pattern observed.
+79e7060aeb457e6c36b5fbee,Supriya Tamta,29,Male,Eating Disorder,18-05-2025,16-06-2025,Behavioral Therapy,Methylphenidate,20,Low,Improved,Dr. Sharma – Schizophrenia Specialist,Patient responding well to treatment.
+dba41edac876dcd001f4a60f,Mayank Ghildiyal,33,Male,Panic Disorder,05-10-2025,24-10-2025,Nutritional Therapy,Escitalopram,3,Low,Improved,Dr. Mehta – Senior Psychiatrist,Condition stabilized but fragile.
+05aa7fbadb3265c2f15f09fa,Vedika Pande,23,Female,PTSD,11-07-2025,23-07-2025,Mood Stabilization,Paroxetine,7,Severe,Improved,Dr. Arora – Trauma Specialist,"Symptoms under control, continue medication."
