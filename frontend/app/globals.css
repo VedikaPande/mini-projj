@@ -125,3 +125,100 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Markdown Content Styling */
+@layer components {
+  .markdown-content {
+    @apply text-sm leading-relaxed;
+  }
+  
+  .markdown-content h1 {
+    @apply text-lg font-bold mb-3 mt-4 first:mt-0;
+  }
+  
+  .markdown-content h2 {
+    @apply text-base font-semibold mb-2 mt-3 first:mt-0;
+  }
+  
+  .markdown-content h3 {
+    @apply text-sm font-medium mb-2 mt-3 first:mt-0;
+  }
+  
+  .markdown-content p {
+    @apply mb-3 last:mb-0;
+  }
+  
+  .markdown-content ul {
+    @apply mb-3 space-y-1;
+  }
+  
+  .markdown-content ol {
+    @apply mb-3 space-y-1;
+  }
+  
+  .markdown-content li {
+    @apply ml-4;
+  }
+  
+  .markdown-content blockquote {
+    @apply border-l-4 border-primary/30 pl-4 py-2 mb-3 italic bg-muted/30 rounded-r;
+  }
+  
+  .markdown-content hr {
+    @apply my-4 border-border;
+  }
+  
+  .markdown-content table {
+    @apply w-full mb-4 border-collapse;
+  }
+  
+  .markdown-content th,
+  .markdown-content td {
+    @apply border border-border px-3 py-2 text-left;
+  }
+  
+  .markdown-content th {
+    @apply bg-muted font-medium;
+  }
+  
+  /* Code styling */
+  .markdown-content code:not(pre code) {
+    @apply bg-muted px-1 py-0.5 rounded text-xs font-mono;
+  }
+  
+  .markdown-content pre {
+    @apply mb-4 overflow-x-auto rounded-lg bg-zinc-950 p-4 text-sm;
+  }
+  
+  .markdown-content pre code {
+    @apply bg-transparent p-0 text-zinc-100;
+  }
+  
+  /* Task list styling */
+  .markdown-content input[type="checkbox"] {
+    @apply mr-2 accent-primary;
+  }
+  
+  /* Link styling */
+  .markdown-content a {
+    @apply text-primary underline underline-offset-2 hover:text-primary/80 transition-colors;
+  }
+  
+  /* Emphasis styling */
+  .markdown-content strong {
+    @apply font-semibold text-foreground;
+  }
+  
+  .markdown-content em {
+    @apply italic;
+  }
+}
+
+/* Syntax highlighting overrides for dark/light themes */
+.hljs {
+  @apply bg-zinc-950 text-zinc-100;
+}
+
+.dark .hljs {
+  @apply bg-zinc-950 text-zinc-100;
+}
