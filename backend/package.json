@@ -8,11 +8,17 @@
     "dev": "nodemon server.js",
     "seed": "node seeder/seed.js -i",
     "seed:delete": "node seeder/seed.js -d",
+    "link-patients": "node tools/linkPatients.js link",
+    "create-test-user": "node tools/linkPatients.js create-test",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@langchain/community": "^1.0.2",
+    "@langchain/core": "^1.0.4",
+    "@langchain/groq": "^1.0.0",
+    "axios": "^1.13.2",
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "csv-parser": "^3.2.0",
@@ -21,7 +27,9 @@
     "groq": "^4.9.0",
     "groq-sdk": "^0.32.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.18.1"
+    "langchain": "^1.0.4",
+    "mongoose": "^8.18.1",
+    "tavily": "^1.0.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"

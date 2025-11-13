@@ -29,6 +29,13 @@ exports.protect = async (req, res, next) => {
     // Add user to request object
     req.user = await User.findById(decoded.id);
 
+    if (!req.user) {
+      return res.status(401).json({ 
+        success: false, 
+        message: 'User not found' 
+      });
+    }
+
     next();
   } catch (err) {
     return res.status(401).json({ 

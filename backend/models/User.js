@@ -24,6 +24,19 @@ const UserSchema = new mongoose.Schema({
     minlength: [6, 'Password must be at least 6 characters'],
     select: false
   },
+  patientId: {
+    type: String,
+    ref: 'Patient',
+    required: false,
+    trim: true,
+    description: 'Reference to patient record for mental health context'
+  },
+  role: {
+    type: String,
+    enum: ['patient', 'admin', 'therapist'],
+    default: 'patient',
+    description: 'User role in the mental health system'
+  },
   createdAt: {
     type: Date,
     default: Date.now

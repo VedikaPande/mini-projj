@@ -12,18 +12,30 @@ connectDB();
 // Route files
 const auth = require('./routes/auth');
 const quiz = require('./routes/quiz');
+const chatbot = require('./routes/chatbot');
 
 const app = express();
 
 // Body parser
 app.use(express.json());
 
-// Enable CORS
-app.use(cors());
+// Enable CORS with specific configuration
+app.use(cors({
+  origin: [
+    'http://localhost:3000', // Next.js default dev server
+    'http://127.0.0.1:3000',
+    'https://localhost:3000'
+  ],
+  credentials: true,
+  optionsSuccessStatus: 200,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 
 // Mount routers
 app.use('/api/auth', auth);
 app.use('/api/quizzes', quiz);
+app.use('/api/chatbot', chatbot);
 
 // Base route for API testing
 app.get('/', (req, res) => {
